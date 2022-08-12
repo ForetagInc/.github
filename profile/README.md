@@ -6,12 +6,12 @@ At Foretag, we always try and work with the best engineers around the world, so 
 
 ### ❤️ Values & principles
 
-We champion many of the principles that are important to us:
+We champion many of the principles that are important to us, reflected in our projects:
 
-- Transparency - build trust with our community and with each other
+- Transparency - be open, build trust with our community and with each other
 - Privacy - protecting data and information from misuse and abuse
 - Freedom - open for all: speech, code, ideas or technology
-- Innovation - constantly striving for efficiency and perfection
+- Innovation - build with purpose, efficiency and flair
 
 ------
 Read more on our [Engineering Website](https://engineering.foret.ag)
