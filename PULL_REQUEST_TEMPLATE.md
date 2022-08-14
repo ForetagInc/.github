@@ -4,7 +4,7 @@
 	Thank you for contributing to a Foretag project; before you proceed, here are a few notes:
 
 	- You agree to our code of conduct
-	- You agree and understand the LICENSE of this project
+	- You understand and agree to the LICENSE of this project
 
 	We appreciate your contribution to helping us in our mission to accelerate human progress.
 -->
@@ -52,6 +52,7 @@ For example, if your PR is related to the `CLI` and `Server`, please add:
 - [ ] Breaking changes involved
 
 <!-- If your breaking changes are not listed then please add some context on what exactly is being changed and how it impacts users -->	
+
 
 
 
