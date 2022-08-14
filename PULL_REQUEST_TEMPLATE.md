@@ -1,6 +1,15 @@
 
 
-<!-- Thank you for contributing -->
+<!--
+	👋🏽 Hey there,
+	Thank you for contributing to a Foretag project; before you proceed, here are a few notes:
+
+	- You agree to our code of conduct
+	- You agree and understand the LICENSE of this project
+
+	We appreciate your contribution to helping us in our mission to accelerate human progress.
+-->
+
 <!-- Please provide a summary of your changes in the title, and end with (close #issue-no) -->
 
 ### Description
