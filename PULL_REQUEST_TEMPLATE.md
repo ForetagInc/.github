@@ -1,5 +1,4 @@
 
-
 <!--
 	👋🏽 Hey there,
 	Thank you for contributing to a Foretag project; before you proceed, here are a few notes:
