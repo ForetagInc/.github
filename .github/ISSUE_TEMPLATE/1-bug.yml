@@ -14,10 +14,67 @@ body:
               - Is this really a problem?
               - Is this a problem here?
 
+    - type: input
+      id: environment
+      attributes:
+          label: Environment
+          description: What environment are you on i.e. Local, Cloud or Enterprise and which edition, if necessary.
+      validations:
+          required: true
+
+    - type: textarea
+      id: keywords
+      attributes:
+          label: Keywords
+          description:
+              What keywords did you use when trying to find an existing bug report?
+              List them here so people in the future can find this one more easily.
+          placeholder: i.e. database, connection
+      validations:
+          required: false
+
     - type: textarea
       id: current-behavior
       attributes:
-          label: Expected Behavior
+          label: Current behavior
           description: A concise description of what you expected to happen.
       validations:
           required: true
+
+    - type: textarea
+      id: steps
+      attributes:
+          label: Steps To Reproduce
+          description: Steps to reproduce the behavior.
+          placeholder: |
+              1. In this environment...
+              2. With this config...
+              3. Run '...'
+              4. See error...
+      validations:
+          required: true
+
+    - type: input
+      id: screenshot
+      attributes:
+          label: Screenshot or Screencast
+          description: Providing relevant Screenshots/ Screencasts would help us to debug the issue quickly.
+          placeholder: https://i.imgur.com/image
+      validations:
+          required: false
+
+    - type: textarea
+      id: logs
+      attributes:
+          label: Logs and traces
+          description: Provide any traces or logs that could help here
+      validations:
+          required: false
+
+    - type: textarea
+      id: solution
+      attributes:
+          label: Solution
+          description: Any possible solutions or releated information
+      validations:
+          required: false
