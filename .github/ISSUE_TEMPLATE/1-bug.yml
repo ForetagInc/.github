@@ -4,6 +4,14 @@ title: "Bug: "
 labels: ["kind/bug", "kind/needs-triage"]
 
 body:
+    - type: markdown
+      attributes:
+          value: |
+              Some general tips:
+
+              - Is this really a problem?
+              - Is this a problem here?
+
     - type: textarea
       id: current-behavior
       attributes:
