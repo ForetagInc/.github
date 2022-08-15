@@ -1,6 +1,6 @@
 name: 🐞 Bug Report
 description: File a bug report here
-title: "Bug: <title>"
+title: "Bug: "
 labels: ["kind/bug", "kind/needs-triage"]
 body:
     - type: textarea
