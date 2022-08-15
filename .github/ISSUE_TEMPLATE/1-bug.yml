@@ -2,6 +2,7 @@ name: 🐞 Bug Report
 description: File a bug report here
 title: "Bug: "
 labels: ["kind/bug", "kind/needs-triage"]
+
 body:
     - type: textarea
       id: current-behavior
@@ -10,6 +11,7 @@ body:
           description: A concise description of what you expected to happen.
       validations:
           required: true
+
     - type: textarea
       id: steps-to-reproduce
       attributes:
@@ -22,6 +24,7 @@ body:
               4. See error
       validations:
           required: true
+
     - type: checkboxes
       attributes:
           label: Contribution
