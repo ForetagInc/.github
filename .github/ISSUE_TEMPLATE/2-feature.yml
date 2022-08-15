@@ -1,7 +1,8 @@
 name: 🚀 Feature request
 description: Suggest an idea
 title: "Feature Request: "
-labels: ["kind/feature-request"]
+labels:
+    - "kind/feature-request"
 
 body:
     - type: markdown
