@@ -34,6 +34,7 @@ body:
           required: true
 
     - type: checkboxes
+      id: contribution
       attributes:
           label: Contribution
           description: If the bug is confirmed, would you be willing to submit a PR?
