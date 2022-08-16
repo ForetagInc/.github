@@ -22,7 +22,7 @@ body:
                 required: true
               - label: I agree to follow the [Code of Conduct](https://github.com/ForetagInc/.github/blob/master/CODE_OF_CONDUCT.md)
                 required: true
-              - label: I searched issues and couldn't find anything (or linked relevant results below)
+              - label: I searched the issues and discussions but couldn't find anything (or linked relevant results below)
                 required: true
 
     - type: textarea
