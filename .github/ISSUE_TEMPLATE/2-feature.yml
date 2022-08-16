@@ -47,6 +47,15 @@ body:
       attributes:
           label: Alternatives
           description: What are the alternative solutions? Can this be solved in a different way?
+          placeholder: |
+              The problem could be solved body:
+              - Creating an external plugin
+              - Integrating the feature directly into the codebase
+
+              Some tips:
+              - Include as much detail about the implementation and pros and cons of each approach
+              - Timebox if possible
+              - Where possible, add sample pseudo code
       validations:
           required: false
 
