@@ -39,8 +39,9 @@ body:
       attributes:
           label: Environment
           description: Environment are you on i.e. Local, Bare Metal or Cloud.
-          placeholder: i.e. Local - RockyLinux 9 on ARM64 with 8 GB RAM, 4 vCPU
-              feel free to add any other related hardware / software specs and if the project has differet editions or plans (OSS, Cloud, and Enterprise) be sure to add that
+          placeholder: |
+              i.e. Local - RockyLinux 9 on ARM64 with 8 GB RAM, 4 vCPU
+              Feel free to add any other related hardware / software specs and if the project has different editions or plans (OSS, Cloud, and Enterprise)
       validations:
           required: true
 
@@ -108,9 +109,10 @@ body:
       attributes:
           label: Debugging
           description: Can you identify the location in the source code where the problem exists
-          placeholder: Add as many references as you can i.e
-              \n L22:49 on project/example.rs calls function_with_error(value);
-              \n L72:88 on project/main.rs calls nested_function(error);
+          placeholder: |
+              Add as many references as you can -
+              L22:49 on project/example.rs calls function_with_error(value);
+              L72:88 on project/main.rs calls nested_function(error);
       validations:
           required: false
 
