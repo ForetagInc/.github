@@ -16,6 +16,8 @@ body:
       attributes:
           label: Preliminary checklist
           options:
+              - label: I understand that all communication must be in English
+                required: true
               - label: I read the [Documentation](https://engineering.foret.ag)
                 required: true
               - label: I read the [Contributing guide](https://github.com/ForetagInc/.github/blob/master/CONTRIBUTING.md)
