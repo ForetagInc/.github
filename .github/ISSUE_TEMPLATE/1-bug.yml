@@ -25,11 +25,20 @@ body:
               - label: I searched the issues and discussions but couldn't find anything (or linked relevant results below)
                 required: true
 
+    - type: input
+      id: version
+      attributes:
+          label: Version
+          description: Please test using the latest version of the relevant packages to make sure your issue has not already been fixed.
+          placeholder: v1.0.0-alpha
+      validations:
+          required: true
+
     - type: textarea
       id: environment
       attributes:
           label: Environment
-          description: Environment are you on i.e. Local, Bare Metal or Cloud
+          description: Environment are you on i.e. Local, Bare Metal or Cloud.
           placeholder: i.e. Local - RockyLinux 9 on ARM64 with 8 GB RAM, 4 vCPU
               feel free to add any other related hardware / software specs and if the project has differet editions or plans (OSS, Cloud, and Enterprise) be sure to add that
       validations:
