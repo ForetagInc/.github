@@ -99,6 +99,7 @@ body:
       attributes:
           label: Solution
           description: Any possible solutions or releated information
+          placeholder: When I click the sync button the data should sync
       validations:
           required: false
 
@@ -108,8 +109,8 @@ body:
           label: Debugging
           description: Can you identify the location in the source code where the problem exists
           placeholder: Add as many references as you can i.e
-              L22:49 on project/example.rs calls function_with_error(value);
-              L72:88 on project/main.rs calls nested_function(error);
+              \n L22:49 on project/example.rs calls function_with_error(value);
+              \n L72:88 on project/main.rs calls nested_function(error);
       validations:
           required: false
 
