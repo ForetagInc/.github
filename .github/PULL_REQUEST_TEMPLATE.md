@@ -30,7 +30,7 @@ For example, if your PR is related to the `CLI` and `Server`, please add:
 
 ### Implementation
 
-<!-- Add as much detail as possile on how this PR solves or fixes the issues, the design, approach and any relevant resources -->
+<!-- Add as much detail as possible on how this PR solves or fixes the issues, the design, approach and any relevant resources -->
 
 ### Testing
 
@@ -48,10 +48,12 @@ For example, if your PR is related to the `CLI` and `Server`, please add:
 
 ### Breaking changes
 
-- [ ] No Breaking changes
-- [ ] Breaking changes involved
+<!-- **Breaking Changes**  -->
+<!-- No Breaking Changes  -->
 
 <!-- If your breaking changes are not listed then please add some context on what exactly is being changed and how it impacts users -->	
+
+
 
 
 
