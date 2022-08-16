@@ -9,10 +9,21 @@ body:
     - type: markdown
       attributes:
           value: |
-              Some general tips:
+              👋🏽 Thanks for reporting this issue to us, here is a preliminary checklist
 
-              - Is this really a problem?
-              - Is this a problem here?
+    - type: checkboxes
+      id: preliminary-checklist
+      attributes:
+          label: Preliminary checklist
+          options:
+              - label: I read the [Documentation](https://engineering.foret.ag)
+                required: true
+              - label: I read the [Contributing guide](https://github.com/ForetagInc/.github/blob/master/CONTRIBUTING.md)
+                required: true
+              - label: I agree to follow the [Code of Conduct](https://github.com/ForetagInc/.github/blob/master/CODE_OF_CONDUCT.md)
+                required: true
+              - label: I searched issues and couldn't find anything (or linked relevant results below)
+                required: true
 
     - type: textarea
       id: environment
