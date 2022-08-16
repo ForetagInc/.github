@@ -44,17 +44,6 @@ body:
       validations:
           required: true
 
-    - type: input
-      id: keywords
-      attributes:
-          label: Keywords
-          description:
-              What keywords did you use when trying to find an existing bug report?
-              List them here so people in the future can find this one more easily.
-          placeholder: i.e. database, connection, error 2025
-      validations:
-          required: false
-
     - type: textarea
       id: background
       attributes:
@@ -134,3 +123,14 @@ body:
               - "No"
       validations:
           required: true
+
+    - type: input
+      id: keywords
+      attributes:
+          label: Keywords
+          description:
+              What keywords did you use when trying to find an existing bug report?
+              List them here so people in the future can find this one more easily.
+          placeholder: i.e. database, connection, error 2025
+      validations:
+          required: false
