@@ -114,6 +114,7 @@ body:
           required: false
 
     - type: dropdown
+      id: contribution
       attributes:
           label: Contribution
           description: If the bug is confirmed, would you be willing to submit a PR?
