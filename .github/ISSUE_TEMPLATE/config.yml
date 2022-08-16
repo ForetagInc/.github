@@ -1,1 +1,8 @@
 blank_issues_enabled: false
+contact_links:
+    - name: 💬 Get Support from Matrix Community
+      url: https://matrix.to/#/#foretag-public:matrix.org
+      about: Please ask and answer questions here.
+    - name: 🧰 Engineering Website
+      url: https://engineering.foret.ag/
+      about: Discover our projects, documentation and etc.
