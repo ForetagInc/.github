@@ -2,7 +2,7 @@ name: 🚀 Feature request
 description: Suggest an idea, feature or integration
 title: "Feature Request: "
 labels:
-    - "kind/feature-request"
+    - "kind/enhancement"
 
 body:
     - type: markdown
