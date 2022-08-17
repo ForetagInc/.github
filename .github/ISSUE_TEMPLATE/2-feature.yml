@@ -68,8 +68,8 @@ body:
           description: If the feature is approved, would you be willing to submit a PR?
           multiple: false
           options:
-              - "Yes"
-              - "No"
+              - "Yes, I will work on a PR"
+              - "No, I cannot contribute further"
       validations:
           required: true
 

@@ -125,8 +125,8 @@ body:
           description: If the bug is confirmed, would you be willing to submit a PR?
           multiple: false
           options:
-              - "Yes"
-              - "No"
+              - "Yes, I will work on a PR"
+              - "No, I cannot contribute further"
       validations:
           required: true
 
