@@ -9,7 +9,7 @@
 	We appreciate your contribution to helping us in our mission to accelerate human progress.
 -->
 
-<!-- Please provide a summary of your changes in the title, and end with (close #issue-no) -->
+<!-- Please provide a summary of your changes in the title -->
 
 ### Description
 
@@ -20,8 +20,8 @@
 <!-- 
 For example, if your PR is related to the `CLI` and `Server`, please add:
 
-- [x] Server
-- [x] CLI
+- Server
+- CLI
  -->
 
 ### Related issues
