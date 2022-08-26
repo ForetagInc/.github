@@ -9,7 +9,8 @@
 	We appreciate your contribution to helping us in our mission to accelerate human progress.
 -->
 
-<!-- Please provide a summary of your changes in the title -->
+<!-- Please provide a summary of your changes for the title -->
+<!-- NOTE: please do not leave any section empty, instead write N/A and if possible, why its not applicable -->
 
 ### Description
 
