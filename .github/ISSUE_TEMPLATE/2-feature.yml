@@ -3,6 +3,7 @@ description: Suggest an idea, feature or integration
 title: "Feature Request: "
 labels:
     - "kind/enhancement"
+    - "support/needs-triage"
 
 body:
     - type: markdown

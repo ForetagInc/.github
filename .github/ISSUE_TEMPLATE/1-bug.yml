@@ -3,7 +3,7 @@ description: File a bug report here
 title: "Bug: "
 labels:
     - "kind/bug"
-    - "kind/needs-triage"
+    - "support/needs-triage"
 
 body:
     - type: markdown
