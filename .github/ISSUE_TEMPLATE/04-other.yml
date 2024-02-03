@@ -1,0 +1,60 @@
+name: 🐞 Other
+description: Other issues that aren't features, bugs or docs related
+labels:
+    - "support/needs-triage"
+
+body:
+    - type: markdown
+      attributes:
+          value: |
+              👋🏽 Thanks for reporting this issue to us, here is a preliminary checklist
+              
+              Here is a preliminary checklist:
+
+              - I understand that all communication must be in English
+              - I read the [Documentation](https://engineering.foret.ag)
+              - I read the [Contributing guide](https://github.com/ForetagInc/.github/blob/master/CONTRIBUTING.md)
+              - I agree to follow the [Code of Conduct](https://github.com/ForetagInc/.github/blob/master/CODE_OF_CONDUCT.md)
+              - I searched the issues and discussions but couldn't find anything similar
+
+    - type: textarea
+      id: body
+      attributes:
+          label: Body
+          description: Explain your problem with the expected behavior.
+          placeholder: Add as much detail in here as possible explaining the problem, the background context (what you are trying to achieve) etc.
+      validations:
+          required: true
+
+    - type: textarea
+      id: screenshot
+      attributes:
+          label: Screenshot or Screencast
+          description: Providing relevant Screenshots/ Screencasts would help us to debug the issue quickly.
+          placeholder: Link or paste your media
+      validations:
+          required: false
+
+    - type: dropdown
+      id: contribution
+      attributes:
+          label: Contribution
+          description: If the bug is confirmed, would you be willing to submit a PR?
+          multiple: false
+          options:
+              - "Yes, I will work on a PR"
+              - "No, I cannot contribute further"
+              - "No contribution necessary"
+      validations:
+          required: true
+
+    - type: input
+      id: keywords
+      attributes:
+          label: Keywords
+          description:
+              What keywords did you use when trying to find an existing bug report?
+              List them here so people in the future can find this one more easily.
+          placeholder: i.e. database, connection, error 2025
+      validations:
+          required: false

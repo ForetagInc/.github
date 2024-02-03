@@ -10,29 +10,21 @@ body:
       attributes:
           value: |
               👋🏽 Thanks for reporting this issue to us, here is a preliminary checklist
+              
+              Here is a preliminary checklist:
 
-    - type: checkboxes
-      id: preliminary-checklist
-      attributes:
-          label: Preliminary checklist
-          options:
-              - label: I understand that all communication must be in English
-                required: true
-              - label: I read the [Documentation](https://engineering.foret.ag)
-                required: true
-              - label: I read the [Contributing guide](https://github.com/ForetagInc/.github/blob/master/CONTRIBUTING.md)
-                required: true
-              - label: I agree to follow the [Code of Conduct](https://github.com/ForetagInc/.github/blob/master/CODE_OF_CONDUCT.md)
-                required: true
-              - label: I searched the issues and discussions but couldn't find anything (or linked relevant results below)
-                required: true
+              - I understand that all communication must be in English
+              - I read the [Documentation](https://engineering.foret.ag)
+              - I read the [Contributing guide](https://github.com/ForetagInc/.github/blob/master/CONTRIBUTING.md)
+              - I agree to follow the [Code of Conduct](https://github.com/ForetagInc/.github/blob/master/CODE_OF_CONDUCT.md)
+              - I searched the issues and discussions but couldn't find anything similar
 
     - type: input
       id: version
       attributes:
           label: Version
           description: Please test using the latest version of the relevant packages to make sure your issue has not already been fixed.
-          placeholder: v1.0.0-alpha
+          placeholder: v1.0.0-alpha or N/A
       validations:
           required: true
 
@@ -92,7 +84,7 @@ body:
       id: logs
       attributes:
           label: Logs and traces
-          description: Provide any traces or logs that could help here
+          description: Provide any traces or logs that could help here from your debugging
           placeholder: Add any content from your ui, console or terminal where necessary
       validations:
           required: false
@@ -103,18 +95,6 @@ body:
           label: Solution
           description: Any possible solutions or releated information
           placeholder: When I click the sync button the data should sync
-      validations:
-          required: false
-
-    - type: textarea
-      id: debugging
-      attributes:
-          label: Debugging
-          description: Can you identify the location in the source code where the problem exists
-          placeholder: |
-              Add as many references as you can -
-              L22:49 on project/example.rs calls function_with_error(value);
-              L72:88 on project/main.rs calls nested_function(error);
       validations:
           required: false
 

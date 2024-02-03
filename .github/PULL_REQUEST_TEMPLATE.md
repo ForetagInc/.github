@@ -16,10 +16,10 @@
 
 <!-- Add a detailed description of how your changes affect the user and provide additional context where necessary -->
 
-### Components
+### Scope & Components
 
 <!-- 
-For example, if your PR is related to the `CLI` and `Server`, please add:
+For example, if your PR is related to the `CLI`, `Server` or a scope such as `Subsidiary`, please add:
 
 - Server
 - CLI
@@ -27,20 +27,24 @@ For example, if your PR is related to the `CLI` and `Server`, please add:
 
 ### Related issues
 
+<!-- Any relevant (non closable issues) ->
 <!-- Please link to any issues related to this PR by adding the issue number i.e. #1234 -->
+<!-- For issues that close directly comment `closes #XXXX` or add via GUI -->
 
 ### Implementation
 
 <!-- Add as much detail as possible on how this PR solves or fixes the issues, the design, approach and any relevant resources -->
 
-### Testing
+### Test plan
 
 <!-- If this PR is related to a feature request, add any steps to test the feature successfully -->
 <!-- If this PR is a bug fix, add any steps to verify the fix -->
 
-<!-- 1. Step 1 -->
-<!-- 2. Step 2 -->
-<!-- 3. Step 3 -->
+1. Step 1
+2. Step 2
+3. Step 3
+
+<!-- Add any relevant screenshots, videos and/or output from a CLI -->
 
 ### Limitations, bugs & workarounds
 
@@ -52,7 +56,7 @@ For example, if your PR is related to the `CLI` and `Server`, please add:
 <!-- **Breaking Changes**  -->
 <!-- No Breaking Changes  -->
 
-<!-- If your breaking changes are not listed then please add some context on what exactly is being changed and how it impacts users -->	
+<!-- If your PR involves breaking changes, then please add some context on what exactly is being changed and how it impacts users and other developers -->	
 
 
 
