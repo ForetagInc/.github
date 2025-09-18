@@ -1,10 +1,10 @@
-### ✨ About
+### About
 
 We build technologies in an expansive range of industries, from A to Z, and on projects of all sizes and varieties.
 
-At Foretag, we always try to work with the best engineers here, there, and everywhere. If you are interested in working with us, connect via Email or Matrix; or contribute to some of our open source projects directly — and join our mission to accelerate human progress.
+At Foretag, we always try to work with the best engineers here, there, and everywhere. If you are interested in working with us, connect via Email or Matrix; or contribute to some of our open source projects directly - and join our mission to accelerate human progress.
 
-### ❤️ Values & principles
+### Values & principles
 
 We champion many of the principles that are important to us, reflected in our projects:
 
